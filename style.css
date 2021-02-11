@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
-
+body {
+    background-color: #faf3e0;
+}
 .main {
     margin-top: 5%;
     text-align: center;
@@ -24,4 +26,16 @@ button {
     font-size: 2rem;
     display: inline;
     margin: 3%;
+}
+button:hover {
+    color:white;
+}
+.decrease:hover {
+    background-color: rgba(255, 0, 0, 0.9);
+}
+.reset:hover{
+    background-color: black;
+}
+.increase:hover {
+    background-color: rgba(0, 128, 0, 0.9);
 }
