@@ -1,16 +1,19 @@
 const btn = document.querySelector('.talk');
 const content = document.querySelector('.content');
 
-const speech_recognition = window.SpeechRecognition | window.webkitSpeechRecognition;
-const recognition = new speech_recognition();
+const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+const recognition = new SpeechRecognition();
 
 // Start Voice Recognition
 recognition.onstart = function(){
-    console.log("voice is activated");
+    console.log("Voice is activated");
 }
 
 recognition.onresult = function(event){
-    console.log(event);
+    const current = event.resultIndex;
+
+    const transcript = event.results[current][0].transcript;
+    content.textContent = transcript;
 }
 
 btn.addEventListener('click', function(){
