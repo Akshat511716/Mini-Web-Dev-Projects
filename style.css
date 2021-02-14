@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+* {
+    background-color: #eaffd0;
+    margin: 0;
+    padding: 0;
+}
+main {
+    display: grid;
+    padding: 10vh 100vw;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+
+}
+
+button {
+    display: inline;
+    font-size: 2rem;
+    border: 0.1rem solid black;
+    background-color: transparent;
+    padding: 1vw 4vw;
+    border-radius: 1.5em;
+}
+
+h3{
+
+}
