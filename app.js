@@ -33,7 +33,7 @@ function readOutLoud(message){
     const speech = new SpeechSynthesisUtterance();
     speech.volume = 1;
     speech.rate = 1;
-    speech.pitch = 0.1;
+    speech.pitch = 2;
 
     speech.text = "Sorry! I don't understand what you are saying";
     
