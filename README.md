@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # mini-web-dev-projects
 ||||||| empty tree
 =======
@@ -23,3 +24,7 @@
 *To count on a web application with the help of a counter which changes color to green when positive, red when negative and default when set at 0*
 #### Project status: *completed*
 >>>>>>> ed05073e0794c0c6a8af6b18575d82b88100a704
+||||||| empty tree
+=======
+# voiceRecognitionJSProject
+>>>>>>> 824d3fe00dd0aa4cb473d51bc2224948d655ac14
