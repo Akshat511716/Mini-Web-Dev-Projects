@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # mini-web-dev-projects
 ||||||| empty tree
 =======
@@ -15,3 +16,10 @@
 *An awesome web application that provides a hexcode and changes the background color accordingly*
 #### Project status: *completed*
 >>>>>>> ff13ed8f9e51989db33605c2d443e7219547627c
+||||||| empty tree
+=======
+# Counter Web application
+## A web application to increase, decrease or reset the counter and change color accordingly
+*To count on a web application with the help of a counter which changes color to green when positive, red when negative and default when set at 0*
+#### Project status: *completed*
+>>>>>>> ed05073e0794c0c6a8af6b18575d82b88100a704
