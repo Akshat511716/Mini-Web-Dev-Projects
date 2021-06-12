@@ -7,6 +7,7 @@ outputDiv.innerText = "Your banana translation will come here!";
 
 function clickHandler(){
     outputDiv.innerText = textInput.value;
+    outputDiv.style.color = "black";
 }
 
 buttonTranslate.addEventListener("click", clickHandler);
