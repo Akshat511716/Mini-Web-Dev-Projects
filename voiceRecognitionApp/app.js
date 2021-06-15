@@ -1,6 +1,8 @@
 const button = document.querySelector(".talk");
 const content = document.querySelector(".content");
 
+const greeting = ["Hi, I am to talk to you today!"];
+
 const SpeechRecognition =
   window.SpeechRecognition || window.webkitSpeechRecognition;
 
@@ -23,6 +25,13 @@ button.addEventListener("click", () => {
 
 function readOutLoud(message) {
   const speech = new SpeechSynthesisUtterance();
+
+  if (message.includes("how are you")) {
+    const finalText = greeting[0];
+    speech.text = finalText;
+  } else {
+    speech.text = message;
+  }
   speech.volume = 1;
   speech.rate = 1;
   speech.pitch = 1;
