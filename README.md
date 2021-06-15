@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # mini-web-dev-projects
 ||||||| empty tree
 =======
@@ -28,3 +29,7 @@
 =======
 # voiceRecognitionJSProject
 >>>>>>> 824d3fe00dd0aa4cb473d51bc2224948d655ac14
+||||||| empty tree
+=======
+# banana-talk
+>>>>>>> a14e5cfad9652cc994a42fa08b0a34af18374be9
